@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                pyhon3 code.py
+                python3 code.py
             }
         }
         stage('Test') {
