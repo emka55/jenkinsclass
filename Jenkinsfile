@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat "pyhon3 code.py"
+                pyhon3 code.py
             }
         }
         stage('Test') {
