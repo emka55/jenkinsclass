@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat "${python} code.py"
+                bat "pyhon3 code.py"
             }
         }
         stage('Test') {
